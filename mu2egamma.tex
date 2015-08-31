@@ -1,0 +1,146 @@
+%% LyX 2.1.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1cm,bmargin=1cm,lmargin=1cm,rmargin=1cm,headheight=1cm,headsep=1cm,footskip=1cm}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{float}
+\usepackage{amstext}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\renewcommand\[{\begin{equation}}
+\renewcommand\]{\end{equation}}
+\usepackage{slashed}
+\usepackage{braket}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\section{$\mu\rightarrow e\gamma$ in LR symmetric model}
+
+We consider diagrams with $W_{R}$ and $W_{L}$ exchange. We include
+mixing between L-R W bosns, mixing between heavy-light neutrinos.
+We paramterize charged current interaction such that
+
+\begin{eqnarray}
+\mathcal{L}_{W} & = & \frac{g}{\sqrt{2}}\overline{N}\left(K_{R}^{R}\gamma^{\mu}P_{R}+K_{L}^{R}\gamma^{\mu}P_{L}\right)lW_{R\mu}^{+}\\
+ & + & \frac{g}{\sqrt{2}}\overline{N}\left(K_{R}^{L}\gamma^{\mu}P_{R}+K_{L}^{L}\gamma^{\mu}P_{L}\right)lW_{L\mu}^{+}
+\end{eqnarray}
+
+
+Typically $K_{R}^{R}$ and $K_{L}^{L}$ are large, while $K_{L}^{R}$
+and $K_{R}^{L}$ are suppressed by L-R mixing. 
+
+Branching ratio for $\mu\rightarrow e\gamma$ is \cite{Bu:2008fx}
+
+\begin{eqnarray*}
+Br(\mu & \rightarrow & e\gamma)=\frac{3\alpha}{8\pi}\left|\sum_{h=L,R}\left(\frac{m_{W_{L}}}{m_{W_{h}}}\right)^{2}\sum_{i}\left[\left(K_{R}^{h\dagger}\right)_{ei}\left(K_{R}^{h}\right)_{i\mu}F\left(\frac{m_{i}^{2}}{m_{W_{h}}^{2}}\right)+\left(\frac{m_{i}}{m_{\mu}}\right)\left(K_{L}^{h\dagger}\right)_{ei}\left(K_{R}^{h}\right)_{i\mu}G\left(\frac{m_{i}^{2}}{m_{W_{h}}^{2}}\right)\right]\right|^{2},\\
+ &  & +\frac{3\alpha}{8\pi}\left|\left(\frac{m_{W}}{m_{W_{R}}}\right)^{2}\sum_{i}\left[\left(K_{L}^{h\dagger}\right)_{ei}\left(K_{L}^{h}\right)_{i\mu}F\left(\frac{m_{i}^{2}}{m_{W_{h}}^{2}}\right)+\left(\frac{m_{i}}{m_{\mu}}\right)\left(K_{R}^{h\dagger}\right)_{ei}\left(K_{L}^{h}\right)_{i\mu}G\left(\frac{m_{i}^{2}}{m_{W_{h}}^{2}}\right)\right]\right|^{2}\\
+\end{eqnarray*}
+where $m_{i}$ is the mass of the heavy neutrino. Function $F$ is
+given by:
+
+\[
+F(x)=\frac{1}{6\left(1-x\right)^{4}}\left[10-43x+78x^{2}-49x^{3}+4x^{4}+18x^{3}\ln x\right].
+\]
+And function $G$ is 
+\[
+G(x)=\frac{1}{\left(1-x\right)^{3}}\left[-4+15x-12x^{2}+x^{3}+6x^{2}\ln x\right].
+\]
+Sum over $i$ runs over all six neutrinos. Light neutrino contribution
+is negligible, unless there is a large contribution due to the non
+unitarity of $K_{L}$. 
+
+For unitary $K_{R}$, ($\left(K_{R}^{\dagger}K_{R}\right)_{e\mu}=0$)
+and for $\left(\frac{m_{i}}{m_{W_{R}}}\right)\ll1$, assuming mixing
+only between two generations we get simplified equation
+\begin{equation}
+Br(\mu\rightarrow e\gamma)=\frac{3\alpha}{32\pi}\left(\frac{m_{W}}{m_{W_{R}}}\right)^{4}\left(\sin\theta\mbox{\ensuremath{\cos\theta}}\frac{\Delta m_{12}^{2}}{m_{W_{R}}^{2}}\right)^{2}.\label{eq:mu2egamma}
+\end{equation}
+Notice that the same equation holds also in the case of light neutrinos,
+if we put $m_{W_{R}}=m_{W}$. This contribution is negligible since
+\[
+\frac{\Delta m_{12}^{2}}{m_{W}^{2}}\approx\frac{10^{-3}\text{{eV}}^{2}}{80\text{{GeV}}^{2}}\sim10^{-25}.
+\]
+
+
+For $M_{W_{R}}=2200$GeV the branching ratio is suppressed by $\frac{3\alpha}{8\pi}\left(\frac{m_{W}}{m_{W_{R}}}\right)^{4}\sim10^{-9}$,
+which gives good estimation of the order of magnitude. To get an agreement
+with experimental bounds we need to adjust masses and mixing, such
+that $\left|\left[K_{R}^{\dagger}F\left(\frac{m_{i}^{2}}{m_{W_{R}}^{2}}\right)K_{R}\right]_{e\mu}\right|^{2}\ll1$.
+For unitary $K_{R}$ the important suppression comes, not directly
+from the masses of neutrinos, but rather from the splitting of the
+masses. For maximal mixing between two generations, $M_{W_{R}}=2200GeV$
+and neutrinos masses at the scale of TeV, we need the splitting to
+be of the order of about 100GeV to get an agreement with the current
+bounds. 
+
+Based on \cite{Mohapatra:1992uu} we get contribution form scalars
+$\Delta_{L,R}$
+\[
+Br\left(\mu\rightarrow e\gamma\right)=\frac{\alpha}{48\pi G_{F}^{2}}\left[\frac{\left(f'^{\dagger}f'\right)_{\mu e}}{M_{\Delta^{++}}^{2}}+\frac{\left(f{}^{\dagger}f\right)_{\mu e}}{M_{\Delta^{+}}^{2}}\right]^{2}
+\]
+where we have assumed following interaction
+\[
+\mathcal{L}_{\Delta}=l_{L}^{T}C^{-1}fl_{L}\Delta_{L}^{++}+l_{R}^{T}C^{-1}fl_{R}\Delta_{R}^{++}+\frac{1}{\sqrt{2}}\left(l_{L}^{T}C^{-1}fK_{L}^{T}v_{L}+v_{L}^{T}K_{L}fC^{-1}l_{L}\right)\Delta_{L}^{+}.
+\]
+Also $f'=2f$ for vertices with two identical particles. We usually
+denote $\Delta_{L}^{+}=H_{1}^{+}.$ Contribution form the $H_{2}^{+}$
+is given by
+\[
+Br\left(\mu\rightarrow e\gamma\right)=\frac{3\alpha}{4\pi}\frac{\sin^{2}2\beta}{G_{F}^{2}\kappa^{2}M_{H_{2}^{+}}^{4}m_{\mu}^{2}}\left|\left(m_{l}f^{T}K_{R}^{T}M_{N}K_{R}\right)_{\mu e}\right|^{2}
+\]
+where $\beta=\frac{\kappa}{v_{R}}$. In a table we have summarized
+current and planned limits on various charged lepton flavor violating
+processes. 
+
+Currently we need to focus on $\mu\rightarrow e\gamma$, which gives
+the best constrains. When we adjust the mixing, we also need to remember
+about $\tau$ CLFV decays. Other process will be important in future,
+but they also require significantly more work, since the direct contributions
+have to be evaluated. They usually require calculation of box diagrams.
+The best solution here would be to see if we can somehow combine our
+FeynRules implementation of LR model, with \cite{Porod:2014xia}.
+Unfortunately, for now our FeynRules output does not work properly
+with FeynArts, FormCalc. 
+\begin{table}[H]
+\noindent \begin{centering}
+\begin{tabular}{|c|c|c|}
+\hline 
+Process & Current Limit & Planned Limit\tabularnewline
+\hline 
+\hline 
+$\tau\rightarrow\mu\gamma$ & 6.8E-8 & 1.0E-9\tabularnewline
+\hline 
+$\tau\rightarrow\mu\mu\mu$ & 3.2E-8 & 1.0E-9\tabularnewline
+\hline 
+$\tau\rightarrow eee$ & 3.6E-8 & 1.0E-9\tabularnewline
+\hline 
+$\mu\rightarrow e\gamma$ & 5.7E-13 & 1.0E-14\tabularnewline
+\hline 
+$\mu N\rightarrow eN$ & 7.0E-13 & 1.0E-17\tabularnewline
+\hline 
+$\mu\rightarrow eee$ & 1.0E-12 & 1.0E-16\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\protect\caption{Current and planned limits on Lepton CFLV}
+\end{table}
+
+
+\bibliographystyle{plain}
+\bibliography{/Users/robert/Dropbox/Diary/Bibliography/base}
+
+\end{document}
