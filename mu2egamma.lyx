@@ -1,0 +1,635 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\renewcommand\[{\begin{equation}}
+\renewcommand\]{\end{equation}}
+\usepackage{slashed}
+\usepackage{braket}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\headheight 1cm
+\headsep 1cm
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+\begin_inset Formula $\mu\rightarrow e\gamma$
+\end_inset
+
+ in LR symmetric model
+\end_layout
+
+\begin_layout Standard
+We consider diagrams with 
+\begin_inset Formula $W_{R}$
+\end_inset
+
+ and 
+\begin_inset Formula $W_{L}$
+\end_inset
+
+ exchange.
+ We include mixing between L-R W bosns, mixing between heavy-light neutrinos.
+ We paramterize charged current interaction such that
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\mathcal{L}_{W} & = & \frac{g}{\sqrt{2}}\overline{N}\left(K_{R}^{R}\gamma^{\mu}P_{R}+K_{L}^{R}\gamma^{\mu}P_{L}\right)lW_{R\mu}^{+}\\
+ & + & \frac{g}{\sqrt{2}}\overline{N}\left(K_{R}^{L}\gamma^{\mu}P_{R}+K_{L}^{L}\gamma^{\mu}P_{L}\right)lW_{L\mu}^{+}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Typically 
+\begin_inset Formula $K_{R}^{R}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{L}^{L}$
+\end_inset
+
+ are large, while 
+\begin_inset Formula $K_{L}^{R}$
+\end_inset
+
+ and 
+\begin_inset Formula $K_{R}^{L}$
+\end_inset
+
+ are suppressed by L-R mixing.
+ 
+\end_layout
+
+\begin_layout Standard
+Branching ratio for 
+\begin_inset Formula $\mu\rightarrow e\gamma$
+\end_inset
+
+ is 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bu:2008fx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+Br(\mu & \rightarrow & e\gamma)=\frac{3\alpha}{8\pi}\left|\sum_{h=L,R}\left(\frac{m_{W_{L}}}{m_{W_{h}}}\right)^{2}\sum_{i}\left[\left(K_{R}^{h\dagger}\right)_{ei}\left(K_{R}^{h}\right)_{i\mu}F\left(\frac{m_{i}^{2}}{m_{W_{h}}^{2}}\right)+\left(\frac{m_{i}}{m_{\mu}}\right)\left(K_{L}^{h\dagger}\right)_{ei}\left(K_{R}^{h}\right)_{i\mu}G\left(\frac{m_{i}^{2}}{m_{W_{h}}^{2}}\right)\right]\right|^{2},\\
+ &  & +\frac{3\alpha}{8\pi}\left|\left(\frac{m_{W}}{m_{W_{R}}}\right)^{2}\sum_{i}\left[\left(K_{L}^{h\dagger}\right)_{ei}\left(K_{L}^{h}\right)_{i\mu}F\left(\frac{m_{i}^{2}}{m_{W_{h}}^{2}}\right)+\left(\frac{m_{i}}{m_{\mu}}\right)\left(K_{R}^{h\dagger}\right)_{ei}\left(K_{L}^{h}\right)_{i\mu}G\left(\frac{m_{i}^{2}}{m_{W_{h}}^{2}}\right)\right]\right|^{2}\\
+\end{eqnarray*}
+
+\end_inset
+
+where 
+\begin_inset Formula $m_{i}$
+\end_inset
+
+ is the mass of the heavy neutrino.
+ Function 
+\begin_inset Formula $F$
+\end_inset
+
+ is given by:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F(x)=\frac{1}{6\left(1-x\right)^{4}}\left[10-43x+78x^{2}-49x^{3}+4x^{4}+18x^{3}\ln x\right].
+\]
+
+\end_inset
+
+And function 
+\begin_inset Formula $G$
+\end_inset
+
+ is 
+\begin_inset Formula 
+\[
+G(x)=\frac{1}{\left(1-x\right)^{3}}\left[-4+15x-12x^{2}+x^{3}+6x^{2}\ln x\right].
+\]
+
+\end_inset
+
+Sum over 
+\begin_inset Formula $i$
+\end_inset
+
+ runs over all six neutrinos.
+ Light neutrino contribution is negligible, unless there is a large contribution
+ due to the non unitarity of 
+\begin_inset Formula $K_{L}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+For unitary 
+\begin_inset Formula $K_{R}$
+\end_inset
+
+, (
+\begin_inset Formula $\left(K_{R}^{\dagger}K_{R}\right)_{e\mu}=0$
+\end_inset
+
+) and for 
+\begin_inset Formula $\left(\frac{m_{i}}{m_{W_{R}}}\right)\ll1$
+\end_inset
+
+, assuming mixing only between two generations we get simplified equation
+\begin_inset Formula 
+\begin{equation}
+Br(\mu\rightarrow e\gamma)=\frac{3\alpha}{32\pi}\left(\frac{m_{W}}{m_{W_{R}}}\right)^{4}\left(\sin\theta\mbox{\cos\theta}\frac{\Delta m_{12}^{2}}{m_{W_{R}}^{2}}\right)^{2}.\label{eq:mu2egamma}
+\end{equation}
+
+\end_inset
+
+Notice that the same equation holds also in the case of light neutrinos,
+ if we put 
+\begin_inset Formula $m_{W_{R}}=m_{W}$
+\end_inset
+
+.
+ This contribution is negligible since 
+\begin_inset Formula 
+\[
+\frac{\Delta m_{12}^{2}}{m_{W}^{2}}\approx\frac{10^{-3}\text{{eV}}^{2}}{80\text{{GeV}}^{2}}\sim10^{-25}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $M_{W_{R}}=2200$
+\end_inset
+
+GeV the branching ratio is suppressed by 
+\begin_inset Formula $\frac{3\alpha}{8\pi}\left(\frac{m_{W}}{m_{W_{R}}}\right)^{4}\sim10^{-9}$
+\end_inset
+
+, which gives good estimation of the order of magnitude.
+ To get an agreement with experimental bounds we need to adjust masses and
+ mixing, such that 
+\begin_inset Formula $\left|\left[K_{R}^{\dagger}F\left(\frac{m_{i}^{2}}{m_{W_{R}}^{2}}\right)K_{R}\right]_{e\mu}\right|^{2}\ll1$
+\end_inset
+
+.
+ For unitary 
+\begin_inset Formula $K_{R}$
+\end_inset
+
+ the important suppression comes, not directly from the masses of neutrinos,
+ but rather from the splitting of the masses.
+ For maximal mixing between two generations, 
+\begin_inset Formula $M_{W_{R}}=2200GeV$
+\end_inset
+
+ and neutrinos masses at the scale of TeV, we need the splitting to be of
+ the order of about 100GeV to get an agreement with the current bounds.
+ 
+\end_layout
+
+\begin_layout Standard
+Based on 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mohapatra:1992uu"
+
+\end_inset
+
+ we get contribution form scalars 
+\begin_inset Formula $\Delta_{L,R}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+Br\left(\mu\rightarrow e\gamma\right)=\frac{\alpha}{48\pi G_{F}^{2}}\left[\frac{\left(f'^{\dagger}f'\right)_{\mu e}}{M_{\Delta^{++}}^{2}}+\frac{\left(f{}^{\dagger}f\right)_{\mu e}}{M_{\Delta^{+}}^{2}}\right]^{2}
+\]
+
+\end_inset
+
+where we have assumed following interaction
+\begin_inset Formula 
+\[
+\mathcal{L}_{\Delta}=l_{L}^{T}C^{-1}fl_{L}\Delta_{L}^{++}+l_{R}^{T}C^{-1}fl_{R}\Delta_{R}^{++}+\frac{1}{\sqrt{2}}\left(l_{L}^{T}C^{-1}fK_{L}^{T}v_{L}+v_{L}^{T}K_{L}fC^{-1}l_{L}\right)\Delta_{L}^{+}.
+\]
+
+\end_inset
+
+Also 
+\begin_inset Formula $f'=2f$
+\end_inset
+
+ for vertices with two identical particles.
+ We usually denote 
+\begin_inset Formula $\Delta_{L}^{+}=H_{1}^{+}.$
+\end_inset
+
+ Contribution form the 
+\begin_inset Formula $H_{2}^{+}$
+\end_inset
+
+ is given by
+\begin_inset Formula 
+\[
+Br\left(\mu\rightarrow e\gamma\right)=\frac{3\alpha}{4\pi}\frac{\sin^{2}2\beta}{G_{F}^{2}\kappa^{2}M_{H_{2}^{+}}^{4}m_{\mu}^{2}}\left|\left(m_{l}f^{T}K_{R}^{T}M_{N}K_{R}\right)_{\mu e}\right|^{2}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\beta=\frac{\kappa}{v_{R}}$
+\end_inset
+
+.
+ In a table we have summarized current and planned limits on various charged
+ lepton flavor violating processes.
+ 
+\end_layout
+
+\begin_layout Standard
+Currently we need to focus on 
+\begin_inset Formula $\mu\rightarrow e\gamma$
+\end_inset
+
+, which gives the best constrains.
+ When we adjust the mixing, we also need to remember about 
+\begin_inset Formula $\tau$
+\end_inset
+
+ CLFV decays.
+ Other process will be important in future, but they also require significantly
+ more work, since the direct contributions have to be evaluated.
+ They usually require calculation of box diagrams.
+ The best solution here would be to see if we can somehow combine our FeynRules
+ implementation of LR model, with 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porod:2014xia"
+
+\end_inset
+
+.
+ Unfortunately, for now our FeynRules output does not work properly with
+ FeynArts, FormCalc.
+ 
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Process
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Current Limit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Planned Limit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau\rightarrow\mu\gamma$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.8E-8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0E-9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau\rightarrow\mu\mu\mu$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.2E-8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0E-9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau\rightarrow eee$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.6E-8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0E-9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mu\rightarrow e\gamma$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.7E-13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0E-14
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mu N\rightarrow eN$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.0E-13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0E-17
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mu\rightarrow eee$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0E-12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0E-16
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Current and planned limits on Lepton CFLV
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/Users/robert/Dropbox/Diary/Bibliography/base"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
